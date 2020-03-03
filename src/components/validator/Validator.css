@@ -1,0 +1,38 @@
+
+.input-addon {
+  display: flex;
+}
+
+.reset {
+  padding: 10px;
+  font-size: 125%;
+
+  background: #FF4136;
+  color: rgb(0, 0, 0);
+  border: 0;
+
+  flex: 1;
+}
+
+.error span {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.error.valid {
+  color: #2ECC40;
+}
+
+.error.invalid {
+  color: #FF4136;
+}
+
+.cc-logo {
+  padding: 5px 10px;
+  opacity: 0.35;
+}
+
+.cc-logo.active {
+  opacity: 1;
+}
